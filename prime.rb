@@ -16,11 +16,12 @@ def is_prime(num)
     if num <= 1
       return false
     end
+    bool = nil
   while n < num
     if num % n == 0
-     return false
+     return bool = false
      n += 1
     end
-  true
+  return bool
   end
 end
