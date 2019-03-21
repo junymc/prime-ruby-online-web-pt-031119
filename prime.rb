@@ -13,10 +13,10 @@ require 'pry'
 
 def is_prime(num)
   n = 2
+  bool = nil
     if num <= 1
       return false
     end
-    bool = nil
   while n < num
     if num % n == 0
      return bool = false
