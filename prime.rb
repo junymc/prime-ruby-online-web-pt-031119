@@ -18,7 +18,7 @@ def is_prime(num)
     end
   while n < num
     if num % n == 0
-     return false 
+     return false
      n += 1
     end
   true
