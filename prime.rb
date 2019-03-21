@@ -22,6 +22,7 @@ def prime?(num)
      return bool = false
      n += 1
     end
+    return bool = true
   end
-  return bool = true
+  bool
 end
