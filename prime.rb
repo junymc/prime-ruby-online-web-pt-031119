@@ -11,7 +11,7 @@ require 'pry'
 #     true
 # end
 
-def is_prime(num)
+def prime?(num)
   n = 2
   bool = true
     if num <= 1
