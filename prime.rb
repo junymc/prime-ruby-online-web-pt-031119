@@ -13,15 +13,15 @@ require 'pry'
 
 def prime?(num)
   n = 2
-  bool = true
+  bool = nil
     if num <= 1
       return false
     end
   while n < num
     if num % n == 0
-      n += 1
      return bool = false
+     n += 1
     end
   end
-  return bool
+  return bool = true
 end
